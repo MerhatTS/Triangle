@@ -2,6 +2,7 @@ public class Triangle {
     double area;
     int height;
     int length;
+    
     public static void main(String[] args) {
         int x = 0;
         Triangle[] ta = new Triangle[4];
@@ -20,8 +21,8 @@ public class Triangle {
         ta[2].area = 343;
         System.out.print("y = " + y);
         System.out.println(", зона t5 = "+ t5.area);
-
     }
+    
     void setArea(){
         area = (height * length) / 2;
     }
